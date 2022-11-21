@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #eeeff1;
+    font-family: Poppins,sans-serif;
+    color: #1a1b1f;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.intro-img img {
+    width: 215px;
+    border: 0;
+    border-radius: 15px;
+    display: flex;
+    margin-right: 30px;
+}
+img{
+    margin: 0  50px;
+    padding: 0 0 0 50px;
+}
+ img{
+     background-image: linear-gradient(to right, #9cbfd3,#987bb1,#f2bfd3,#ec9091);
+        width: 20%;
+        max-width: 400px;
+        margin: top -100px;
+}
+div.intro {
+    max-width: 100%;
+    margin: 150px 30px 0 150px;
+    align-content: space-between;
+    color: #000;
+}
+div.intro-text {
+font-size: 20px;
+margin-top: 50px;
+}
+p.intro-text{
+    font-size: 30px;
+    color: #000;
+}
+.about {
+    align-items:justify;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: space-evenly;
+    justify-items: left;
+    align-content: space-evenly;
+    align-items: left;
+    margin-top: 150px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+.about-skill{
+    margin-left: 150px;
+    justify-content: center;
+}
+
+h2 {margin: 20px 0 15px;
+}
+
+.dess h1 {
+    float: left;
+    font-size: medium;
+    padding: 10px 0 0 10px;
+    margin-top: -150px;
+    margin-bottom: 20px;
+}
+.dess nav {
+    float: right;
+    padding: 10px 10px 0 0;
+    margin-top: -150px;
+    margin-bottom: 20px;
+}
+.nav a {text-decoration: none;
+    color: #000;
+}
+    
+
+.skill {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid #ced1df;
+    border-radius: 8px;
+    background-color: #eeeff1;
+    background-image: none;
+    background-size: auto;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    opacity: 1;
+    color: #000;
+    font-size: 16px;
+    line-height: 39px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+    
